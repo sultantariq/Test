@@ -12,6 +12,7 @@ function myScript()
   document.getElementById('weeklybutton').onclick= function() {plotChart('weekly','', selectedChoices);current='weekly'; hidePiechart();}
   document.getElementById('bonusbutton').onclick= function() {plotChart('monthly','1stbonus', selectedChoices);plotpiechart('monthly','1stbonus');current='monthly';displaySuggestions();}
   document.getElementById('2ndbonusbutton').onclick= function() {plotChart('monthly','2ndbonus', selectedChoices);plotpiechart('monthly','2ndbonus');current='monthly';displaySuggestions();}
+  document.getElementById('3rdbonusbutton').onclick= function() {plotChart('monthly','3rdbonus', selectedChoices);plotpiechart('monthly','3rdbonus');current='monthly';displaySuggestions();}
   document.getElementById('choosedata').onclick= function() {choosedata();}
   document.getElementById('optionsbutton').onclick= function() {selectData();}
 
@@ -87,21 +88,21 @@ Plotly.newPlot('charts', data, layout, {responsive: true});
 
 function mapLink(val)
 {
-  var link = "https://gist.githubusercontent.com/sultantariq/b18d628b5b1e408f692c18368b447d80/raw/596cc70cf2041bd35616583d8561c53356806bff/Hafsah_2020_AllMonthly.csv";
+  var link = "https://gist.githubusercontent.com/sultantariq/b18d628b5b1e408f692c18368b447d80/raw/1a4d1926d791a9742e6b849552bc9353490421d5/Hafsah_2020_AllMonthly.csv";
 
 if (val=='weekly')
 {
-  link="https://gist.githubusercontent.com/sultantariq/92859b8821fd162d8625d3139873cdcd/raw/2cba52a3fceea792b4ef9b18f58387fd52553c17/Hafsah_2020_Allweekly.csv"
+  link="https://gist.githubusercontent.com/sultantariq/92859b8821fd162d8625d3139873cdcd/raw/7e84d6a333685e3eae02ecb5f967276d485b994f/Hafsah_2020_Allweekly.csv"
 }
 
 else if (val == 'monthly')
 {
-  link="https://gist.githubusercontent.com/sultantariq/b18d628b5b1e408f692c18368b447d80/raw/596cc70cf2041bd35616583d8561c53356806bff/Hafsah_2020_AllMonthly.csv"
+  link="https://gist.githubusercontent.com/sultantariq/b18d628b5b1e408f692c18368b447d80/raw/1a4d1926d791a9742e6b849552bc9353490421d5/Hafsah_2020_AllMonthly.csv"
 }
 
 else if (val == 'yearly')
 {
-  link="https://gist.githubusercontent.com/sultantariq/353ed4b2120c214d8ecdcab3c21bd1bb/raw/67fbf0a4007509bc94dbf3d85f11b5aa89b21cdd/Hafsah_AllYears.csv"
+  link="https://gist.githubusercontent.com/sultantariq/353ed4b2120c214d8ecdcab3c21bd1bb/raw/6363a344beea369f3426b76d15b63da5bee46e55/Hafsah_AllYears.csv"
 }
 return link;
 
@@ -271,6 +272,42 @@ document.getElementById("pauseTimePerdayValue").textContent=pauseTimePerdayValue
 
       
     }
+else if (selectIndex=="3rdbonus")
+    {
+      months=['Jul 2020','Aug 2020','Sep 2020']
+    
+      indexes=getIndex(months,cellValues[0])
+      thirdBonusMonths=indexes
+ var kpi=Math.round(getKPI(cellValues,1,thirdBonusMonths))
+
+  kpi=kpi +' for 3rd Bonus';    
+  document.getElementById("kpi").textContent=kpi;
+  //get the talk time
+      talkTimePerMin= getKPI(cellValues,3,thirdBonusMonths)
+ if (talkTimePerMin >2)
+ {
+  talkTimePerMinValue=headerValue[3]+' : ' +talkTimePerMin
+ }
+ else 
+ {
+  talkTimePerMinValue= ""
+ }
+  document.getElementById("talkTimePerMinValue").textContent=talkTimePerMinValue;
+  //get the Pause time
+   pauseTimePerday= getKPI(cellValues,8,thirdBonusMonths)
+ if (pauseTimePerday >1)
+ {
+  pauseTimePerdayValue=headerNames[8]+' : ' +pauseTimePerday + 'hours = ' + pauseTimePerday*60 +'mins'
+ }
+ else 
+ {
+  pauseTimePerdayValue= ""
+ }
+document.getElementById("pauseTimePerdayValue").textContent=pauseTimePerdayValue;
+
+      
+    }
+
     else if (selectIndex=="2019")
     { 
       months=['Sep 2019','Oct 2019','Nov 2019','Dec 2019']
@@ -566,6 +603,21 @@ if (!!selectIndex)
       secondBonusMonths= indexes
   var start=secondBonusMonths[0]
   var temp=secondBonusMonths
+  var end=temp.slice(-1).pop()+1;
+
+
+    rows=rows.slice(start,end) //nect three rows of 2020  monthly file - update this for others
+    period=period.slice(start,end)
+    new_val=new_val.slice(start,end)
+    }
+
+      else if (selectIndex=="3rdbonus")
+    {
+      months=['Jul 2020','Aug 2020','Sep 2020']
+      indexes=getIndex(months,period)
+      thirdBonusMonths= indexes
+  var start=thirdBonusMonths[0]
+  var temp=thirdBonusMonths
   var end=temp.slice(-1).pop()+1;
 
 
