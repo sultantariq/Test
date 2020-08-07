@@ -87,21 +87,21 @@ Plotly.newPlot('charts', data, layout, {responsive: true});
 
 function mapLink(val)
 {
-  var link = "https://gist.githubusercontent.com/sultantariq/b18d628b5b1e408f692c18368b447d80/raw/1a4d1926d791a9742e6b849552bc9353490421d5/Hafsah_2020_AllMonthly.new_cell_values";
+  var link = "https://gist.githubusercontent.com/sultantariq/b18d628b5b1e408f692c18368b447d80/raw/596cc70cf2041bd35616583d8561c53356806bff/Hafsah_2020_AllMonthly.csv";
 
 if (val=='weekly')
 {
-  link="https://gist.githubusercontent.com/sultantariq/92859b8821fd162d8625d3139873cdcd/raw/483eb12067a1a6f714d5ca4f77c9f58b19b99324/Hafsah_2020_Allweekly.csv"
+  link="https://gist.githubusercontent.com/sultantariq/92859b8821fd162d8625d3139873cdcd/raw/2cba52a3fceea792b4ef9b18f58387fd52553c17/Hafsah_2020_Allweekly.csv"
 }
 
 else if (val == 'monthly')
 {
-  link="https://gist.githubusercontent.com/sultantariq/b18d628b5b1e408f692c18368b447d80/raw/1a4d1926d791a9742e6b849552bc9353490421d5/Hafsah_2020_AllMonthly.csv"
+  link="https://gist.githubusercontent.com/sultantariq/b18d628b5b1e408f692c18368b447d80/raw/596cc70cf2041bd35616583d8561c53356806bff/Hafsah_2020_AllMonthly.csv"
 }
 
 else if (val == 'yearly')
 {
-  link="https://gist.githubusercontent.com/sultantariq/353ed4b2120c214d8ecdcab3c21bd1bb/raw/6363a344beea369f3426b76d15b63da5bee46e55/Hafsah_AllYears.csv"
+  link="https://gist.githubusercontent.com/sultantariq/353ed4b2120c214d8ecdcab3c21bd1bb/raw/67fbf0a4007509bc94dbf3d85f11b5aa89b21cdd/Hafsah_AllYears.csv"
 }
 return link;
 
