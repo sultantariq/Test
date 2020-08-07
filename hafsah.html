@@ -1,0 +1,137 @@
+<head>
+  <!-- Load plotly.js into the DOM -->
+  
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+
+<script src='myScript.js'> 
+</script>
+
+<link rel="stylesheet" href="myStyle.css">
+
+
+</head>
+
+
+<body onload="myScript()" class="main">
+
+  <div class="content">
+<div class="head">
+<div id="logo">
+  
+<img src="falck.jpg" width="50px">
+</div>
+
+<div class="projectname">Data visualiser</div>
+
+</div>
+
+<div class="topbar">
+
+</div>
+
+<div class="updatedtime">
+
+<h6></h6>
+
+</div>
+
+<div class="data">
+<button onClick="display()"> Show suggestions </button>
+<div id="suggetions">
+<div>
+<h1>Suggestions for achieving KPI / Bonus</h1>
+<h2>KPI : 75</span></h2>
+<h2>KPI Achieved : <span id="kpi"></span></h2>
+<h3><span id="talkTimePerMinValue"></span></h3>
+<h3><span id="pauseTimePerdayValue"></span></h3>
+<!-- <h3>Average Calls needed in coming days:<span class="colorTwo"> 77</span></h3> -->
+</div>
+
+</div>
+
+  <div id="buttons">
+<button type="button" id="yearlybutton">Year</button>
+<button type="button" id="monthlybutton">Month</button>
+<button type="button" id="weeklybutton">Week</button>
+<button type="button" id="bonusbutton">1st Bonus Status</button>
+<button type="button" id="2ndbonusbutton">2nd Bonus Status</button>
+<button type="button" id="choosedata">Choose data</button>
+
+</div>
+  <div id="optionsdiv">
+<table>
+  <tr>
+  <td>
+    <input type="checkbox" class="opt" name="option1" id="option1" value="Indgaende-Opkald-per-dag">
+    <label for="option1">Indgaende Opkald</label>
+  </td>
+  <td>
+    <input type="checkbox" class="opt" name="option2" id="option2" value="Udgaende-Opkald-per-dag">
+    <label for="option2">Udgaende Opkald</label> 
+  </td>
+  </tr>
+
+<tr>
+  <td>
+  <input type="checkbox" class="opt" name="option3" id="option3" value="In-Ud-sum">
+  <label for="option3">In-Ud-sum</label>
+</td>
+  <td>
+  <input type="checkbox" class="opt" name="option4" id="option4" value="Samtale (min) per Opkald">
+  <label for="option4">Samtale (min)</label>
+ </td>
+  </tr>
+<tr>
+  <td>
+  <input type="checkbox" class="opt" name="option5" id="option5" value="Aktiv/Klar (T) - Samlet per dag">
+  <label for="option5">Aktiv/Klar (T) Samlet</label>
+</td>
+  <td>
+  <input type="checkbox" class="opt" name="option6" id="option6" value="Samtale (T) - per dag">
+  <label for="option6">Samtale (T)</label>
+ </td>
+  </tr>
+<tr>
+  <td>
+  <input type="checkbox" class="opt" name="option7" id="option7" value="Klar (T) - per dag">
+  <label for="option7">Klar (T) - per dag</label>
+</td>
+  <td>
+  <input type="checkbox" class="opt" name="option8" id="option8" value="Administration (T) - per dag">
+  <label for="option8">Administration (T)</label>
+ </td>
+  </tr>
+<tr>
+  <td>
+  <input type="checkbox" class="opt" name="option9" id="option9" value="Pause (T) - per dag">
+  <label for="option9">Pause (T)</label>
+</td>
+  <td>
+  <input type="checkbox" class="opt" name="option10" id="option10" value="ikke klar (T) Andet - per dag">
+  <label for="option10">ikke klar (T)</label>
+ </td>
+</tr>
+<tr>
+     <td>
+  <input type="checkbox" class="opt" name="option11" id="option11" value="Login-datoer">
+  <label for="option11">Login-datoer</label>
+ </td>
+    <td>
+  <input type="checkbox" class="opt" name="option12" id="option12" value="Login-timer / dag">
+  <label for="option12">Login-timer / dag</label>
+ </td>
+</tr>
+  </table> 
+  <button type="button" id="optionsbutton">Select</button>
+
+</div>
+<div id="charts">
+  <div id="tp">
+  <div id='table'></div>
+  <div id='pieDiv'></div>
+</div>
+  <div id='chartplot'></div>
+</div>
+
+
+</body>
