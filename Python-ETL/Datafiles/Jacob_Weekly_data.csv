@@ -1,0 +1,27 @@
+,AgentName,PeriodName,Period,In-Ud-sum,Indgaende-Opkald-per-dag,Udgaende-Opkald-per-dag,Samtale (min) per Opkald,Aktiv/Klar (T) - Samlet per dag,Samtale (T) - per dag,Klar (T) - per dag,Administration (T) - per dag,Pause (T) - per dag,ikke klar (T) Andet - per dag
+9,Jacob Carsting,jan_2020_week1,Jan week1,38,8,30,2.9,5.8,1.8,0.5,3.5,1.8,0.0
+10,Jacob Carsting,jan_2020_week2,Jan week2,34,13,21,4.1,6.0,2.3,0.8,2.9,0.4,1.7
+12,Jacob Carsting,jan_2020_week3,Jan week3,34,19,15,3.5,6.5,2.0,1.5,3.0,0.9,0.1
+13,Jacob Carsting,jan_2020_week4,Jan week4,30,20,10,4.0,5.7,2.0,1.2,2.5,0.8,0.8
+12,Jacob Carsting,jan_2020_week5,Jan week5,36,15,21,2.9,6.2,1.7,1.5,3.0,0.7,0.6
+13,Jacob Carsting,feb_2020_week1,Feb week1,28,15,13,3.1,6.3,1.4,2.5,2.4,0.7,0.3
+13,Jacob Carsting,feb_2020_week2,Feb week2,19,14,5,4.1,6.2,1.3,2.6,2.3,0.8,0.6
+12,Jacob Carsting,feb_2020_week3,Feb week3,24,19,5,3.9,6.3,1.5,2.8,2.0,0.7,0.4
+12,Jacob Carsting,feb_2020_week4,Feb week4,20,14,6,3.2,5.2,1.1,2.1,2.1,0.6,0.5
+13,Jacob Carsting,mar_2020_week1,Mar week1,27,22,5,3.7,6.0,1.6,1.9,2.5,0.7,0.9
+12,Jacob Carsting,mar_2020_week2,Mar week2,27,24,3,3.0,6.0,1.3,3.0,1.8,0.7,0.7
+4,Jacob Carsting,mar_2020_week3,Mar week3,7,7,0,6.3,5.6,0.8,2.1,2.7,0.2,0.4
+4,Jacob Carsting,mar_2020_week4,Mar week4,12,10,2,5.4,5.6,1.0,2.3,2.3,0.0,0.4
+3,Jacob Carsting,mar_2020_week5,Mar week5,31,26,5,4.3,5.8,2.2,2.9,0.7,0.1,1.3
+3,Jacob Carsting,apr_2020_week1,Apr week1,39,30,9,3.5,5.1,2.3,1.8,1.0,0.4,1.3
+3,Jacob Carsting,apr_2020_week2,Apr week2,33,26,7,3.8,6.3,2.1,2.6,1.6,0.5,1.0
+5,Jacob Carsting,apr_2020_week3,Apr week3,41,31,10,5.1,6.6,3.5,1.0,2.0,0.8,0.5
+18,Jacob Carsting,apr_2020_week4,Apr week4,30,26,4,4.6,6.4,2.4,2.0,2.1,0.8,0.7
+14,Jacob Carsting,apr_2020_week5,Apr week5,34,29,5,5.2,5.2,3.0,0.6,1.7,0.7,1.3
+8,Jacob Carsting,may_2020_week1,May week1,41,38,3,4.8,5.2,3.3,0.9,1.0,0.8,0.9
+17,Jacob Carsting,may_2020_week2,May week2,42,34,8,3.6,5.2,2.5,0.8,1.8,0.9,1.3
+32,Jacob Carsting,may_2020_week3,May week3,31,25,6,4.5,5.4,2.3,0.9,2.2,0.7,1.3
+13,Jacob Carsting,may_2020_week4,May week4,42,34,8,3.7,6.2,2.5,1.7,2.0,0.8,0.8
+14,Jacob Carsting,may_2020_week5,May week5,39,32,7,3.0,5.1,2.0,1.5,1.5,0.8,1.3
+10,Jacob Carsting,jun_2020_week1,Jun week1,45,39,6,3.5,5.3,2.6,1.2,1.5,0.8,1.3
+12,Jacob Carsting,jun_2020_week2,Jun week2,48,43,5,3.9,5.0,3.1,0.8,1.1,0.6,1.8

@@ -1,0 +1,4 @@
+﻿AgentName,Login-datoer,Login-timer / dag,Indgående Opkald per dag,Udgående Opkald per dag,Tabte Opkald per dag,Samtale (min) per Opkald,Aktiv/Klar (T) - Samlet per dag,Aktiv/Klar - Samlet,Samtale (T) - per dag,Aktiv/Klar - Samtale,Klar (T) - per dag,Aktiv/Klar - Klar,Administration (T) - per dag,Aktiv/Klar - Admininistrativt,Pause (T) - per dag,Ikke Klar - Pause,ikke klar (T) Andet - per dag,Ikke Klar - Andet,Ukendt/Andet (T) - per dag
+Stephanie Dam,5,7.9,82,4,0.0,2.6,6.3,80 %,3.7,47 %,2.2,28 %,0.4,5 %,0.9,11 %,0.4,7 %,0.3
+Hafsah Tasneem,5,7.5,78,8,0.2,2.3,5.4,72 %,3.3,44 %,1.7,22 %,0.4,5 %,0.9,11 %,1.1,13 %,0.2
+Jesper Jin Leen Larsen,5,7.1,12,23,0.0,4.5,6.2,87 %,2.6,36 %,0.5,8 %,3.1,43 %,0.6,8 %,0.3,3 %,0.0

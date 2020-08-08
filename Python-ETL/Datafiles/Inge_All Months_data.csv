@@ -1,0 +1,11 @@
+,AgentName,PeriodName,Period,Indgaende-Opkald-per-dag,Udgaende-Opkald-per-dag,Samtale (min) per Opkald,Aktiv/Klar (T) - Samlet per dag,Samtale (T) - per dag,Klar (T) - per dag,Administration (T) - per dag,Pause (T) - per dag,ikke klar (T) Andet - per dag,Login-datoer,Login-timer / dag,In-Ud-sum,Aktiv/Klar - Samtale,Aktiv/Klar - Klar,Aktiv/Klar - Admininistrativt,Ikke Klar - Pause,Ikke Klar - Andet
+14,Inge Chan,oct_2019,Oct 2019,62,10,3.5,6.1,4.3,1.5,0.4,0.8,0.8,20,7.9,72,54.0,19.0,5.0,11.0,7.0
+15,Inge Chan,nov_2019,Nov 2019,66,11,3.2,6.4,4.1,1.7,0.6,0.7,0.9,21,8.0,77,51.0,21.0,7.0,9.0,7.0
+13,Inge Chan,dec_2019,Dec 2019,59,9,3.0,6.9,3.4,2.9,0.5,0.7,0.4,18,8.1,68,42.0,36.0,7.0,9.0,2.0
+12,Inge Chan,jan_2020,Jan 2020,58,10,3.7,6.7,4.2,2.0,0.5,0.7,0.5,21,8.0,68,53.0,25.0,6.0,9.0,3.0
+12,Inge Chan,feb_2020,Feb 2020,63,8,3.8,6.9,4.5,2.0,0.4,0.8,0.4,19,8.2,71,55.0,24.0,5.0,10.0,2.0
+12,Inge Chan,mar_2020,Mar 2020,88,6,2.9,6.7,4.6,1.9,0.2,0.8,0.6,9,8.2,94,56.0,23.0,2.0,10.0,3.0
+9,Inge Chan,apr_2020,Apr 2020,50,9,4.3,6.5,4.2,1.2,1.0,0.6,0.8,10,8.0,59,53.0,15.0,12.0,8.0,5.0
+13,Inge Chan,may_2020,May 2020,52,7,5.0,7.0,4.9,0.9,1.2,0.7,0.5,19,8.2,59,59.0,11.0,14.0,8.0,2.0
+8,Inge Chan,jun_2020,Jun 2020,54,7,4.5,6.7,4.6,1.6,0.4,0.7,0.6,20,8.1,61,57.0,20.0,5.0,9.0,2.0
+9,Inge Chan,jul_2020,Jul 2020,53,5,4.1,6.2,4.0,1.9,0.4,0.7,0.9,8,7.9,58,50.0,24.0,5.0,9.0,5.0

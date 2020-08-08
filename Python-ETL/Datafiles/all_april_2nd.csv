@@ -1,0 +1,13 @@
+﻿AgentName,Login-datoer,Login-timer / dag,Indgående Opkald per dag,Udgående Opkald per dag,Tabte Opkald per dag,Samtale (min) per Opkald,Aktiv/Klar (T) - Samlet per dag,Aktiv/Klar - Samlet,Samtale (T) - per dag,Aktiv/Klar - Samtale,Klar (T) - per dag,Aktiv/Klar - Klar,Administration (T) - per dag,Aktiv/Klar - Admininistrativt,Pause (T) - per dag,Ikke Klar - Pause,ikke klar (T) Andet - per dag,Ikke Klar - Andet,Ukendt/Andet (T) - per dag
+Stefan Koch Jacobsen,3,8.2,37,5,1.3,2.7,7.7,93 %,1.9,23 %,3.3,40 %,2.5,30 %,0.1,1 %,0.4,1 %,0.1
+Anne Sylvester Walters,3,6.9,34,2,1.7,2.8,6.5,95 %,1.7,25 %,2.7,40 %,2.1,30 %,0.2,3 %,0.1,1 %,0.1
+Lars Ulrik Pedersen,3,8.0,27,2,1.3,3.0,7.3,92 %,1.4,18 %,2.7,34 %,3.2,40 %,0.4,5 %,0.1,2 %,0.1
+Jacob Carsting,3,8.0,26,7,0.3,3.8,6.3,79 %,2.1,26 %,2.6,32 %,1.6,20 %,0.5,6 %,1.0,5 %,0.2
+Sara Ekstrøm,2,7.4,21,8,0.5,2.5,5.7,77 %,1.2,17 %,3.1,42 %,1.4,19 %,0.9,13 %,0.7,1 %,0.1
+Karina Loncar,1,9.1,18,2,1.0,4.8,7.5,83 %,1.6,18 %,4.0,44 %,2.0,22 %,1.1,12 %,0.4,1 %,0.1
+Jesper Jin Leen Larsen,3,4.7,17,8,0.0,3.0,3.9,83 %,1.3,27 %,1.4,29 %,1.2,27 %,0.4,9 %,0.3,5 %,0.1
+Simone Rasmussen,1,8.9,17,17,1.0,2.6,7.8,88 %,1.5,17 %,3.6,41 %,2.7,30 %,0.8,9 %,0.2,1 %,0.1
+Anders Kjærulff Møller,1,7.4,16,0,0.0,3.5,4.3,58 %,0.9,13 %,2.4,33 %,0.9,12 %,0.4,6 %,2.6,34 %,0.0
+Ida Lundager Kraaer,1,4.0,15,2,0.0,2.3,3.5,87 %,0.7,17 %,1.3,33 %,1.5,38 %,0.3,8 %,0.1,2 %,0.0
+Nicolai Linnemann,2,8.1,15,11,0.0,3.7,6.7,83 %,1.6,20 %,2.1,26 %,3.0,38 %,1.3,16 %,0.1,0 %,0.0
+Bettina Daugaard,2,7.1,12,7,1.5,2.7,4.7,65 %,0.8,12 %,3.1,43 %,0.7,10 %,1.3,18 %,1.2,0 %,0.0
