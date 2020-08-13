@@ -214,7 +214,7 @@ if (!!selectIndex) //update for others
       talkTimePerMin= getKPI(cellValuescopy,3,firstBonusMonths)
  if (talkTimePerMin >2)
  {
-  talkTimePerMinValue=headerValue[3]+' : ' +talkTimePerMin
+  talkTimePerMinValue=headerNames[3]+' : ' +talkTimePerMin
  }
  else 
  {
@@ -252,7 +252,7 @@ document.getElementById("pauseTimePerdayValue").textContent=pauseTimePerdayValue
       talkTimePerMin= getKPI(cellValuescopy,3,secondBonusMonths)
  if (talkTimePerMin >2)
  {
-  talkTimePerMinValue=headerValue[3]+' : ' +talkTimePerMin
+  talkTimePerMinValue=headerNames[3]+' : ' +talkTimePerMin
  }
  else 
  {
@@ -287,7 +287,7 @@ else if (selectIndex=="3rdbonus")
       talkTimePerMin= getKPI(cellValuescopy,3,thirdBonusMonths)
  if (talkTimePerMin >2)
  {
-  talkTimePerMinValue=headerValue[3]+' : ' +talkTimePerMin
+  talkTimePerMinValue=headerNames[3]+' : ' +talkTimePerMin
  }
  else 
  {
